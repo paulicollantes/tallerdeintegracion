@@ -1,0 +1,17 @@
+1) Hardcodear las temporadas mejor
+
+2) Para obtener todos los episodios
+Luego filtrar los que correspondan a la temporada
+https://tarea-1-breaking-bad.herokuapp.com/api/episodes
+
+3) Info de un episodio
+https://tarea-1-breaking-bad.herokuapp.com/api/episodes/60
+
+4) Info de un personaje
+https://tarea-1-breaking-bad.herokuapp.com/api/characters/8
+
+5) Cita de un personaje
+https://tarea-1-breaking-bad.herokuapp.com/api/quote?author=Jesse+Pinkman
+
+6) Buscar por parte nombre
+https://tarea-1-breaking-bad.herokuapp.com/api/characters?name=Walter
