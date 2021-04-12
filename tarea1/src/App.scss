@@ -10,8 +10,26 @@ header {
     .searchbar{
         position: absolute;
         top: 50%;
-        left: 100px;
+        left: 30px;
+        display: flex;
+        align-items: center;
+
+        .search-input{
+            padding: 3px 8px;
+            border: 1px gray;
+            border-radius: 5px;
+            margin: 0 8px;
+        }
+
+        .search-btn{
+            padding: 5px 8px;
+            border: 1px gray;
+            border-radius: 5px;
+
+        }
     }
+
+    
 
     .logo {
         position: absolute;
@@ -68,3 +86,12 @@ img{
     flex-shrink: 1;
 }
 
+footer{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    font-style: normal;
+    justify-content: center;
+}

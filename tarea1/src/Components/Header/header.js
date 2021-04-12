@@ -3,15 +3,21 @@ import {
     Link
 } from 'react-router-dom';
 import Search from './search';
+import {getCharactersBySearch} from '../../services/episodes'
 
 
 
 class Header extends Component {
+    handleSearch = async (search) => {
+        const responseJson = await getCharactersBySearch(search)
+        console.log(responseJson)
+    
+    }
     render(){
         return(
             <header>
 
-                <Search />
+                <Search handleSearch={this.handleSearch}/>
 
                 <nav>
                     <ul>

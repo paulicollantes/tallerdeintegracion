@@ -31,7 +31,7 @@ class HomePage extends Component {
                         </li>
                     </ul>
 
-                <h2>Better Call Soul</h2>
+                <h2>Better Call Saul</h2>
                     <ul>
                         <li>
                             <Link to="/Season">Temporada 1</Link>

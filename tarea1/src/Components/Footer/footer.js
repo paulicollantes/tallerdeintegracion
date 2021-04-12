@@ -5,7 +5,7 @@ class Footer extends Component {
     render(){
         return(
             <footer>
-                Footer 
+                no alcancé a terminar :c 
             </footer>
             
         );

@@ -7,8 +7,18 @@ export async function getEpisodes (){
     
     return responseJson
 }
+
+
+export async function getCharactersBySearch(q){
+    const response = await fetch(`${baseURL}characters?name=${q}`)
+    const responseJson = await response.json()
+    return responseJson
+}
+
+
 export default {
-    getEpisodes
+    getEpisodes,
+    getCharactersBySearch
 }
 
     //    const new_episodes= []               

@@ -9,7 +9,7 @@ import {
 import Header from './Components/Header/header'
 import Footer from './Components/Footer/footer'
 import HomePage from './Components/Pages/homePage'
-import BetterCallSoul from './Components/Pages/betterCallSoul'
+import BetterCallSoul from './Components/Pages/betterCallSaul'
 import BreakingBad from './Components/Pages/breakingBad'
 import Season from './Components/Pages/season'
 import Episode from './Components/Pages/episodeContainer'

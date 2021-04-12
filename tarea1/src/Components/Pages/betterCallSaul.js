@@ -4,12 +4,12 @@ import {
 } from 'react-router-dom';
 
 
-class BetterCallSoul extends Component {
+class BetterCallSaul extends Component {
     render(){
         return(
             <div className="container-fluid">
                 <h1>
-                    Better Call Soul Content
+                    Better Call Saul Content
                 </h1>
                     <ul>
                         <li>
@@ -35,4 +35,4 @@ class BetterCallSoul extends Component {
     }
 }
 
-export default BetterCallSoul;
+export default BetterCallSaul;
